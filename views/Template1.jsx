@@ -3,7 +3,7 @@ const React = require('react')
 class Index extends React.Component{
     render() {
         return(
-            <h1>Route 2/Template</h1>
+            <h1>Template 1</h1>
         )
     }
 }

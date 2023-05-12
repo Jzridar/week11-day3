@@ -13,8 +13,11 @@ app.get('/', (req,res) => {
     res.send('<h1> Home page,Route 1 </h1>')
 })
 
-app.get("/route2",(req,res) => {
-    res.render('Route2')
+app.get("/template2",(req,res) => {
+    res.render('template2')
+})  
+    app.get("/template1",(req,res) => {
+        res.render('template1')
 })
 app.get('/3', (req,res) => {
     res.send('<h1> Route 3</h1>')
